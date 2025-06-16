@@ -4,5 +4,6 @@ public interface IKost
 {
      double MaandKost { get; }
      void Gegevens();
+     
 }
 

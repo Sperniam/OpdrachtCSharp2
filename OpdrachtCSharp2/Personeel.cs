@@ -12,12 +12,23 @@
         public double MaandKost => BrutoMaandLoon * 0.6;
         
         
+        
         public virtual void Gegevens()
+        {
+           ToonBaseInfo();
+           MaandelijkseKost();
+        }
+
+        public virtual void ToonBaseInfo()
         {
             Console.WriteLine($"PersoneelsNummer: {PersoneelsNummer}");
             Console.WriteLine($"Naam: {PersoneelsNaam}");
             Console.WriteLine($"Brutomaandloon: {BrutoMaandLoon}");
-            Console.WriteLine($"Maandelijkse Kost: {MaandKost} euro");
+        }
+
+        public virtual void MaandelijkseKost()
+        {
+            Console.WriteLine($"Maandlijkse Kost: {MaandKost} euro");
         }
         
         // Constructor met alle nodige params
