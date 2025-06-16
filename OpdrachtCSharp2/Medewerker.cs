@@ -4,8 +4,8 @@ public class Medewerker : Personeel
 {
     public int AantalCursisten { get; }
 
-    public Medewerker(string naam,  double loon, string email, DateOnly[] verlof, int aantalCursisten)
-        : base(naam,loon, email)
+    public Medewerker(string naam,  double loon, DateOnly[] verlof, int aantalCursisten)
+        : base(naam,loon)
     {
         AantalCursisten = aantalCursisten;
     }

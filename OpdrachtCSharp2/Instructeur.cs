@@ -3,6 +3,9 @@
 public class Instructeur : Personeel
 {
     public EInstructeurs Vakgebied { get; }
+    
+    public string EmailAdres { get; }
+
 
     public override void Gegevens()
     {
@@ -11,9 +14,13 @@ public class Instructeur : Personeel
     }
 
     public Instructeur(string naam, double loon, string email, DateOnly[] verlof, EInstructeurs vakgebied)
-        : base(naam, loon, email)
+        : base(naam, loon)
     {
         Vakgebied = vakgebied;
+        if (email.Contains("@"))
+            EmailAdres = email;
+        else
+            EmailAdres = string.Empty;
     }
     
 }
