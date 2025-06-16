@@ -1,7 +1,5 @@
 ﻿using OpdrachtCSharp2;
 
-DateOnly[] beginenEinde = new [] { new DateOnly(2025, 06, 02), new DateOnly(2025, 07, 30) };
-
 Instructeur instructeur1 = new Instructeur("Jan Jansen",1500,"jan.jansen@outlook.com",EInstructeurs.Ontwikkeling);
 Instructeur instructeur2 = new Instructeur("Roos Roosen",1600,"roos.roosen@outlook.com",EInstructeurs.Netwerkbeheer);
 
