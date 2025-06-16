@@ -19,14 +19,14 @@
            MaandelijkseKost();
         }
 
-        public virtual void ToonBaseInfo()
+        public void ToonBaseInfo()
         {
             Console.WriteLine($"PersoneelsNummer: {PersoneelsNummer}");
             Console.WriteLine($"Naam: {PersoneelsNaam}");
             Console.WriteLine($"Brutomaandloon: {BrutoMaandLoon}");
         }
 
-        public virtual void MaandelijkseKost()
+        public void MaandelijkseKost()
         {
             Console.WriteLine($"Maandlijkse Kost: {MaandKost} euro");
         }
