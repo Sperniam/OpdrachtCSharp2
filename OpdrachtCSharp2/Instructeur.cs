@@ -13,7 +13,7 @@ public class Instructeur : Personeel
         Console.WriteLine($"Instructeur {Vakgebied} (e-mail: {EmailAdres})");
     }
 
-    public Instructeur(string naam, double loon, string email, DateOnly[] verlof, EInstructeurs vakgebied)
+    public Instructeur(string naam, double loon, string email, EInstructeurs vakgebied)
         : base(naam, loon)
     {
         Vakgebied = vakgebied;

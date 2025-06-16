@@ -2,10 +2,10 @@
 
 DateOnly[] beginenEinde = new [] { new DateOnly(2025, 06, 02), new DateOnly(2025, 07, 30) };
 
-Instructeur instructeur1 = new Instructeur("Jan Jansen",1500,"jan.jansen@outlook.com",beginenEinde,EInstructeurs.Ontwikkeling);
-Instructeur instructeur2 = new Instructeur("Roos Roosen",1600,"roos.roosen@outlook.com",beginenEinde,EInstructeurs.Netwerkbeheer);
+Instructeur instructeur1 = new Instructeur("Jan Jansen",1500,"jan.jansen@outlook.com",EInstructeurs.Ontwikkeling);
+Instructeur instructeur2 = new Instructeur("Roos Roosen",1600,"roos.roosen@outlook.com",EInstructeurs.Netwerkbeheer);
 
-Medewerker medewerker = new Medewerker("Piet Peeters",1550,beginenEinde,10);
+Medewerker medewerker = new Medewerker("Piet Peeters",1550,10);
 
 Gebouw gebouw1 = new Gebouw { Naam = "Gebouw Einstein", HuurprijsPerMaand = 1500 };
 Gebouw gebouw2 = new Gebouw { Naam = "Gebouw Newton", HuurprijsPerMaand = 2500 };

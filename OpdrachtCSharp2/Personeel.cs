@@ -27,10 +27,6 @@
             PersoneelsNaam = personeelsNaam;
             BrutoMaandLoon = brutoMaandLoon;
             nextId++;
-            
-            
-                
-            
         }
         
     }
