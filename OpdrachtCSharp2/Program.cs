@@ -1,7 +1,7 @@
 ﻿using OpdrachtCSharp2;
 
-Instructeurs instructeur1 = new Instructeurs("Jan Jansen",1500,"jan.jansen@vdab.com",Instructeur.Ontwikkeling);
-Instructeurs instructeur2 = new Instructeurs("Roos Roosen",1600,"roos.roosen@vdab.com",Instructeur.Netwerkbeheer);
+Instructeur instructeur1 = new Instructeur("Jan Jansen",1500,"jan.jansen@vdab.com",Vakgebied.Ontwikkeling);
+Instructeur instructeur2 = new Instructeur("Roos Roosen",1600,"roos.roosen@vdab.com",Vakgebied.Netwerkbeheer);
 
 Medewerker medewerker = new Medewerker("Piet Peeters",1550,10);
 
