@@ -1,7 +1,7 @@
 ﻿using OpdrachtCSharp2;
 
-Instructeur instructeur1 = new Instructeur("Jan Jansen",1500,"jan.jansen@vdab.com",EInstructeurs.Ontwikkeling);
-Instructeur instructeur2 = new Instructeur("Roos Roosen",1600,"roos.roosen@vdab.com",EInstructeurs.Netwerkbeheer);
+Instructeurs instructeur1 = new Instructeurs("Jan Jansen",1500,"jan.jansen@vdab.com",Instructeur.Ontwikkeling);
+Instructeurs instructeur2 = new Instructeurs("Roos Roosen",1600,"roos.roosen@vdab.com",Instructeur.Netwerkbeheer);
 
 Medewerker medewerker = new Medewerker("Piet Peeters",1550,10);
 
@@ -19,7 +19,7 @@ IKost[] kosten = new IKost[]
 
 double totaleMaandkost = 0;
 
-VerlofPeriode.CollectieveVerlofPeriode();
+Personeel.CollectieveVerlofPeriode();
 
 Console.WriteLine("Kosten personeel en infrastructuur: ");
 Console.WriteLine("-----------------------------------");
